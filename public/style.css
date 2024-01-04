@@ -154,7 +154,7 @@ nav a p {
 .container .lineone {
     margin: 25px 0px 0px 0px;
     display: flex;
-    justify-content: space- between;
+    justify-content:center;
     flex-wrap: wrap;
 }
 
