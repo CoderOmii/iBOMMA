@@ -655,7 +655,7 @@ main {
 @media screen and (max-width:406px) {
     .container .lineone .one {
         display: grid;
-        grid-column: 1;
+        grid-column: 3;
         margin-left: 13px;
     }
 }
