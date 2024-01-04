@@ -162,8 +162,6 @@ nav a p {
     display: grid;
     grid-column: 6;
     margin-left: 13px;
-
-
 }
 
 .container .lineone .one a p:hover {
@@ -652,6 +650,13 @@ main {
         margin: 0PX 12PX;
 
 
+    }
+}
+@media screen and (max-width:406px) {
+    .container .lineone .one {
+        display: grid;
+        grid-column: 1;
+        margin-left: 13px;
     }
 }
 @media screen and (max-width:390px){
