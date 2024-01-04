@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koose Download and Watch HD Movie At iBOMMA</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="src/script.js"></script>
+  <link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="bar" >
+        <i class="fa-solid fa-bars option" id="option" onclick="shownav()" ></i>
+        <i class="fa-solid fa-xmark back" id="back" onclick="hidenav()" ></i>
+      </div>
+      <div class="logo">
+        <img src="public/images/iBOMMA-logo.png">
+      </div>
+      <div class="searchbar" >
+        <i class="fa-solid fa-magnifying-glass" id="glass" onclick="showsearchbar()"></i>
+        <i class="fa-solid fa-xmark back" id="backs" onclick="hidesearchbar()" ></i>
+      </div>
+      <nav id="nav">
+        <a href="website.html" class="home">
+          <i class="fa-solid fa-house-chimney"></i>
+          <p>Home</p>
+        </a>
+        <a href="about.html" class="about">
+          <i class="fa-solid fa-info"></i>
+          <p>About</p>
+        </a>
+        <a href="bug.html" class="bug">
+          <i class="fa-solid fa-bug"></i>
+          <p>Bug</p>
+        </a>
+        <div class="search">
+          <form action="">
+            <input type="text" placeholder="Search" required>
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+      <div class="search2" id="search2" >
+        <form action="">
+          <input type="text" placeholder="Search" required>
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="video">
+      <div class="back" onclick="hidevideo()">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <iframe id="you" width="560" height="315" src="https://www.youtube.com/embed/bdtZEm0C86o?si=rRGYiPO7UI84TTZO">
+      </iframe>
+    </div>
+    <div class="container">
+      <div class="poster">
+        <img src="public/images/koose.jpg" alt="">
+      </div>
+      <div class="info">
+        <h1>Koose Munisamy Veerappan</h1>
+        <p>2023</p>
+        <p>Documentry</p>
+        <p><i class="fa-solid fa-user"></i> Cast: <span>Rohini,Seeman,Veerappan</span></p>
+        <p><i class="fa-solid fa-user"></i> Director: <span>Sharath Jothi</span></p>
+        <div class="buttons">
+          <button id="trailer" onclick="showvideo()"><i
+              class="fa-solid fa-arrow-up-right-from-square trailer"></i>TRAILER</button>
+          <a href="index.html"><button id="download"><i class="fa-solid fa-cloud-arrow-down download"></i>MOBILE
+              DOWNLOAD</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <p><span class="yellow">Synopsis:</span>Koose Munisamy Veerappan is a 2023 Indian Tamil-language True Crime
+        docuseries by ZEE5, created by Jeyachandra Hashmi, Prabbhavathi and Vasanth Balakrishnan. It is directed by
+        Sharath Jothi and produced by Prabhavathi RV. It is set to premiere on 14 December 2023</p>
+      <p>The series delves into the life of the infamous Indian poacher and domestic terrorist Veerappan, and features
+        unseen real-life footage along with bits of narration by the bandit himself.</p>
+    </div>
+
+  </main>
+  <footer>
+    <nav>
+      <div class="left">
+        <a href="contact.html">
+          Contact 
+        </a>
+         |
+        <a href="dcma.html">
+          DCMA 
+        </a>
+         |
+        <a href="tc.html"> T&C </a>
+      </div>
+      <div class="right">
+        <p><i class="fa-regular fa-copyright"></i>2023 iBOMMA</p>
+      </div>
+    </nav>
+  </footer>
+</body>
+
+</html>

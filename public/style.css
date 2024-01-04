@@ -1,0 +1,714 @@
+* {
+    color: white;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+i {
+    color: yellow;
+    font-size: 15px;
+    margin: 0px 8px;
+}
+
+
+/* ------------------------------------- All Pages Navbar CSS ------------------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.logo {
+    margin: 0px auto;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.bar,
+.searchbar {
+    padding: 5px;
+    background-color: yellow;
+    color: white;
+}
+
+.searchbar i {
+    font-size: 16px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    color: rgb(190, 190, 190);
+    margin: 0px auto;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+nav a p {
+    font-family: lucida sans;
+    font-size: 15px;
+    color: rgb(223, 223, 223);
+}
+
+.home,
+.about,
+.bug,
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: fit-content;
+    height: fit-content;
+}
+
+.search form {
+    height: 100%;
+}
+
+.search form input {
+    width: 140px;
+    height: 26px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.search form button {
+    height: 30px;
+    width: 60px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: yellow;
+    color: white;
+    margin-left: -4px;
+}
+
+.search form button i {
+    color: black;
+}
+
+/* ------------------------------------- Home page CSS ------------------------------------- */
+.top {
+    margin-top: 80px;
+}
+
+.top h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.top p {
+    font-family: lucida sans;
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    margin: 100px auto 0px auto;
+    height: fit-content;
+
+}
+
+.container .lineone {
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: space- between;
+    flex-wrap: wrap;
+}
+
+.container .lineone .one {
+    display: grid;
+    grid-column: 6;
+    margin-left: 13px;
+
+
+}
+
+.container .lineone .one a p:hover {
+    color: rgb(167, 166, 166);
+}
+
+.container .lineone .one a img {
+    width: 170px;
+    height: 240px;
+    box-shadow: 0px 0px 20px rgb(46, 46, 46);
+    border-radius: 10px;
+}
+
+.container .lineone .one a p {
+    margin: 0px;
+    font-family: arial black;
+    font-size: 13px;
+}
+
+#year {
+    width: fit-content;
+    background-color: rgb(78, 78, 78);
+    color: yellow;
+    padding: 2px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+.middlesearch {
+    width: 100%;
+    margin: 0px auto;
+    padding: 40px 0px;
+    height: 150px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.middlesearch h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 10px auto;
+}
+
+.middlesearch p {
+    font-family: lucida sans;
+    font-size: 14px;
+    margin: 15px auto;
+}
+
+.middlesearch form input {
+    width: 50%;
+    height: 35px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 19px;
+    font-family: sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    padding-left: 30px;
+    margin: 15px auto;
+}
+
+.middlesearch form button {
+    height: 39px;
+    width: 100px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: yellow;
+    color: white;
+    margin-left: -4px;
+}
+
+.middlesearch form button i {
+    color: black;
+}
+
+.add-one {
+    margin: 50px 0px;
+}
+
+.add-one p {
+    font-family: lucida sans;
+    font-size: 30px;
+    margin: 0px 0px;
+
+}
+
+.add-one p i {
+    font-size: 25px;
+    margin: 0px 15px 0px 0px;
+    font-style: bold;
+    rotate: 40deg;
+}
+
+/* ------------------------------------- All Pages Footer CSS ------------------------------------- */
+footer nav {
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+}
+
+footer nav .left {
+    display: flex;
+    align-items: center;
+    margin: 0px 4%;
+    justify-content: center;
+}
+
+.left a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: lucida sans;
+    margin: 0px auto;
+    color: rgb(163, 163, 163);
+}
+
+.left a:hover {
+    color: rgba(163, 163, 163, 0.555);
+}
+
+footer nav .right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0px 4%;
+}
+
+.right p {
+    font-family: lucida sans;
+    font-size: 15px;
+    color: rgb(163, 163, 163);
+}
+
+.right p i {
+    color: rgb(163, 163, 163);
+}
+
+
+.navbar .search2 {
+    display: none;
+}
+
+.bar,
+.searchbar {
+    display: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+/* ------------------------------------- Movie Info Page CSS ------------------------------------- */
+
+
+.video {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, .8);
+    height: 100vh;
+    display: none;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.video iframe {
+    width: 90%;
+    height: 80%;
+    margin: 80px 0px 0px -70px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.video .back {
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.video .back i {
+    font-size: 20px;
+    color: black;
+}
+
+main {
+    display: block;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    text-align: left;
+}
+
+.container .poster {
+    height: 450px;
+    margin: 0px auto;
+}
+
+.container .poster img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.container .info {
+    height: 400px;
+    margin: 0px auto;
+}
+
+.container .info h1 {
+    font-family: lucida sans;
+}
+
+.container .info p {
+    font-size: 16px;
+    font-weight: 50;
+    margin: 30px auto;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.container .info p span {
+    font-weight: 50;
+    font-size: 16px;
+    color: rgb(163, 163, 163);
+}
+
+.container .info i {
+    color: rgb(163, 163, 163);
+    margin: 0px;
+}
+
+.buttons {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .info .buttons #trailer {
+    padding: 0px 30px;
+    margin: 0pz auto;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    height: 55px;
+    width: fit-content;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.container .info a #download {
+    margin: 0px auto;
+    padding: 0px 30px;
+    color: black;
+    height: 55px;
+    width: fit-content;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.container .info .download {
+    color: black;
+    margin: 0px 10px;
+}
+
+.container .info .trailer {
+    color: white;
+    margin: 0px 10px;
+}
+
+.container2 {
+    width: 90%;
+    margin: 120px auto;
+    height: fit-content;
+    text-align: left;
+}
+
+.container2 p {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(163, 163, 163);
+}
+
+.container2 p span {
+    font-family: arial black;
+    font-size: 15px;
+    color: yellow;
+}
+
+
+/* ----------------------------------------------- Responsive CSS ----------------------------------------------- */
+
+/* ------------------------------------- Responsive Nav CSS ------------------------------------- */
+
+
+@media only screen and (max-width: 836px) {
+    .search form input {
+        width: 100px;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    nav a p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 606px) {
+    .search form input {
+        width: 100px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    a p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 606px) {
+    .navbar {
+        height: 100px;
+
+    }
+
+    .logo img {
+        width: 180px;
+
+    }
+
+    .bar,
+    .searchbar {
+        display: block;
+    }
+
+    .bar i {
+        font-size: 16px;
+        color: black;
+    }
+
+    #back {
+        display: none;
+    }
+
+    #backs {
+        display: none;
+    }
+
+    .option {
+        display: block;
+    }
+
+    .navbar nav {
+        display: none;
+        width: 100%;
+        top: 100px;
+        left: 0px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.877);
+    }
+
+    .navbar nav a {
+        padding: 5px 0px;
+        border-top: 1px solid rgba(255, 255, 255, 0.356);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.356);
+    }
+
+    .navbar .search {
+        display: none;
+    }
+
+    .search2 {
+        display: none;
+        width: 100%;
+        top: 100px;
+        left: 0px;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .search2 form {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .search2 form input {
+        width: 80%;
+        height: 26px;
+        color: white;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.295);
+        padding-left: 15px;
+        margin: 0px;
+
+    }
+
+    .search2 form button {
+        height: 30px;
+        width: 10%;
+        border-radius: 0px;
+        color: white;
+        background-color: yellow;
+    }
+
+    .search2 form button i {
+        color: black;
+    }
+}
+
+@media screen and (max-width:288px) {
+    .logo img {
+        width: 130px;
+
+    }
+}
+
+/* ------------------------------------- Responsive Main CSS ------------------------------------- */
+
+
+
+@media screen and (max-width:700px) {
+    .top h1 {
+        font-size: 40px;
+    }
+
+    .top p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .top h1 {
+        font-size: 30px;
+    }
+
+    .top p {
+        font-size: 12px;
+    }
+}
+
+/* ------------------------------------- CSS For Cards Responsive -------------------------------------  */
+
+@media screen and (min-width:755px) and (max-width: 1165px) {
+    .container .lineone {
+        margin: 25px 0px 0px 0px;
+        display: flex;
+        justify-content: space- between;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+
+    .container .lineone .one {
+        margin: 0PX 12PX;
+
+
+    }
+}
+@media screen and (max-width:390px){
+    .container .lineone .one {
+        margin:0px 0px  0px 5px;
+
+
+    }
+}
+
+/* ------------------------------------- CSS For Middle Search Responsive ------------------------------------- */
+
+
+@media screen and (max-width:652px) {
+    .middlesearch h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:543px) {
+    .middlesearch h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:297px) {
+    .middlesearch form input {
+        width: 30%;
+    }
+
+    .middlesearch form button {
+        width: 30%;
+    }
+}
+
+/* ------------------------------------- CSS For Responsive footer------------------------------------- */
+
+@media screen and (max-width:330px) {
+    .left {
+        margin: 0px 50px;
+    }
+
+    .left a,
+    .right p {
+
+        font-size: 10px;
+
+
+    }
+}
+
+@media screen and (max-width:250px) {
+
+    .left a,
+    .right p {
+
+        font-size: 6px;
+
+    }
+}
